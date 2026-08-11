@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+html,body{
+    width:100%;
+    height: 100%;
+    padding:0;
+    margin:0;
+    color:antiquewhite;
+}
+
+.edu-vic-wa-nt-hand-500{
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+body{
+    font-family: "Fredoka", sans-serif;
+    background-color: #edeae6;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width:75%;
+    margin: 1rem auto;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: stretch;
+    align-items: stretch;
+    gap: 2rem;
+}
+.col{
+    flex:1 1 300px;
+    border:solid 1px antiquewhite;
+    padding:1rem;
+    border-radius: 10px;
+}
+
+img{
+    max-width: 100%;
+    height:auto;
+}
+h1, h2, h3{
+    text-align: center;
+    margin:1rem auto;
+}
+h1{
+    font-size:4rem;
+}
+
+nav{
+    background-color: #001d52;
+    padding:2rem;
+}
+nav ul{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 900;
+    color:antiquewhite;
+}
+.projects{
+    background-color: #002874;
+    transition: font-size 5s;
+}
+.projects:hover{
+    background: radial-gradient(rgb(34, 75, 255),#002874);
+    font-size: 2rem;
+}
+
+footer #references{
+    width:75%;
+    margin:1rem auto;
+}
+
+footer{
+    background-color: #001d52;
+    padding:1rem;
+    color:antiquewhite;
+}
+
+#skills{
+    margin:1rem auto;
+}
+
+#skills ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    margin:2rem;
+}
+
+#skills ul li{
+    list-style: none;
+    background-color: #002874;
+    border:solid 1px antiquewhite;
+    border-radius: 10px;
+    padding:2rem;
+    color:antiquewhite;
+}
+
+section p{
+    text-align: center;
+}
+
+@media(min-width:768px){
+    .row, nav ul, #skills ul{
+        flex-direction: row;
+    }
+}

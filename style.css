@@ -78,11 +78,9 @@ nav ul li a{
 }
 .projects{
     background-color: #002874;
-    transition: font-size 5s;
 }
 .projects:hover{
     background: radial-gradient(rgb(34, 75, 255),#002874);
-    font-size: 2rem;
 }
 
 footer #references{
